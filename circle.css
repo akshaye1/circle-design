@@ -1,0 +1,134 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.circle.outer {
+  border: 8px solid black;
+  border-radius: 50%;
+  margin: 100px;
+  z-index: 86;
+  width: 150px;
+  height: 150px;
+  /* background-color: blue;
+  margin: 100px;  */
+}
+
+.circle.inner {
+  border: 8px solid black;
+  border-radius: 50%;
+  margin: 7px;
+  z-index: 86;
+  width: 120px;
+  height: 120px;
+}
+
+.circle.filled {
+  background-color: #666666;
+}
+
+.smcircle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: red;
+  display: inline-block;
+  position: absolute;
+}
+
+.one {
+  left: 630px;
+  top: 80px;
+  z-index: 86;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid grey;
+  background: transparent !important;
+}
+
+.fill.filled {
+  background-color: #666666;
+}
+
+.two {
+  top: 150px;
+  left: 510px;
+  z-index: 86;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid grey;
+  background: transparent !important;
+}
+
+.three {
+  right: 530px;
+  top: 120px;
+  z-index: 86;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid grey;
+  background: transparent !important;
+}
+
+.four {
+  left: 480px;
+  bottom: 270px;
+  z-index: 86;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid grey;
+  background: transparent !important;
+}
+
+.five {
+  bottom: 300px;
+  left: 810px;
+  z-index: 86;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid grey;
+  background: transparent !important;
+}
+
+.six {
+  right: 520px;
+  bottom: 170px;
+  z-index: 86;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid grey;
+  background: transparent !important;
+}
+
+.seven {
+  bottom: 210px;
+  left: 500px;
+  z-index: 86;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid grey;
+  background: transparent !important;
+}
+
+.eight {
+  bottom: 130px;
+  left: 630px;
+  z-index: 86;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid grey;
+  background: transparent !important;
+}
